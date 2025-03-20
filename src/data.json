@@ -1,0 +1,46 @@
+[
+    {
+      "id":"01",
+      "name": "Pikachu",
+      "type": "Electric",
+      "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg",
+      "details": "Conhecido por suas habilidades elétricas, Pikachu é o companheiro leal de Ash."
+    },
+    {
+      "id": "02",
+      "name": "Charizard",
+      "type": "Fire/Flying",
+      "image": "https://img.pokemondb.net/artwork/large/charizard.jpg",
+      "details": "Um poderoso Pokémon parecido com um dragão que cospe fogo."
+    },
+    {
+      "id": "03",
+      "name": "Bulbasaur",
+      "type": "Grass/Poison",
+      "image": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
+      "details": "Começa com um bulbo de planta nas costas que cresce e se torna uma flor grande."
+    },
+    {
+      "id": "04",
+      "name": "Squirtle",
+      "type": "Water",
+      "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
+      "details": "Um Pokémon tartaruga aquática conhecido por sua defesa de casco e ataques aquáticos."
+    },
+    {
+      "id": "05",
+      "name": "Jigglypuff",
+      "type": "Normal/Fairy",
+      "image": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
+      "details": "Conhecido por cantar canções de ninar que fazem os outros adormecerem."
+    },
+    {
+      "id": "06",
+      "name": "Gengar",
+      "type": "Ghost/Poison",
+      "image": "https://img.pokemondb.net/artwork/large/gengar.jpg",
+      "details": "Um Pokémon fantasma travesso que adora assustar as pessoas."
+    }
+    
+  ]
+  
