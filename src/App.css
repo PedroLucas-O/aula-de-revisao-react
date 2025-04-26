@@ -1,38 +1,146 @@
-.App {
+.container-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-general {
+  background-color: rgb(19, 19, 19);
+  color: aliceblue;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  align-items: center;
+}
+
+.add-characters-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: rgb(15, 15, 15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.add-characters-container:hover {
+  transform: scale(1.04);
+}
+
+.add-characters-container form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.add-characters-container h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #00aaff;
+}
+
+.add-characters-container h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.add-characters-container input {
+  width: 90%;
+  max-width: 450px;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background-color: #1f1f1f;
+  color: aliceblue;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.add-characters-container input:focus {
+  border-color: #00aaff;
+  outline: none;
+}
+
+.add-characters-container input::placeholder {
+  color: #999;
+}
+
+.log-button {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 140px;
+  height: 50px;
+  margin: 1.5rem auto 0;
+  border: none;
+  border-radius: 25px;
+  background-color: #0e5bb3;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-.App-link {
-  color: #61dafb;
+.log-button:hover {
+  background-color: #051f3a;
+  transform: scale(1.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter-select {
+  border: 1px solid #333;
+  background-color: rgb(15, 15, 15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+  color: aliceblue;
+  border-radius: 25px;
+  width: 140px;
+  height: 35px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-img {
+  width: 250px;
+}
+
+.card-container {
+  border: 2px solid #000000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  width: 250px;
+  padding: 60px;
+  margin: 60px;
+}
+
+.detail-page-container {
+  border: 2px solid #000000;
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #ff0000;
+  box-shadow: 0 0 20px #ffffffb3;
+  transition: transform 0.3s ease;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  width: 250px;
+  padding: 60px;
+  margin: 60px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-page-img {
+  width: 250px;
 }
