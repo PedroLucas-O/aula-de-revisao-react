@@ -35,7 +35,7 @@ export function AdicionaPersonagem (props) {
                     onChange={handleImagem}
                     value={imagem}
                     />
-                    <button className="log-button" onClick={addPersonagem}>
+                    <button className="log-button" npm>
                         <h2>Cadastre</h2>
                     </button>
                 </form>
